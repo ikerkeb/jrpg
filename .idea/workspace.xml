@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c14cead5-9183-4ef3-b3e5-433eebfc4efe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jrpg/com/kerkeb/jrpg/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jrpg/com/kerkeb/jrpg/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kerkeb/jrpg/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kerkeb/jrpg/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/kerkeb/jrpg/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kerkeb/jrpg/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -12,10 +15,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.3751178">
+    <splitter split-orientation="horizontal" split-proportion="0.41773963">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/README.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="SECOND">
@@ -25,39 +28,26 @@
               </provider>
             </entry>
           </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/test/com/kerkeb/jrpg/classes/MageTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/com/kerkeb/jrpg/Main.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/com/kerkeb/jrpg/Game.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+                <state relative-caret-position="165">
+                  <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+                  <folding>
+                    <element signature="e#102#103#0" expanded="true" />
+                    <element signature="e#132#133#0" expanded="true" />
+                    <element signature="e#154#155#0" expanded="true" />
+                    <element signature="e#189#190#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/test/com/kerkeb/jrpg/GameTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="75">
+                  <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
                 </state>
               </provider>
             </entry>
@@ -106,6 +96,22 @@
             </entry>
           </file>
         </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/test/com/kerkeb/jrpg/GameTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="150">
+                  <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
       </split-second>
     </splitter>
   </component>
@@ -113,8 +119,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -150,7 +156,6 @@
         <option value="$PROJECT_DIR$/src/com/kerkeb/player/Player.java" />
         <option value="$PROJECT_DIR$/src/com/kerkeb/jrpg/classes/Action.java" />
         <option value="$PROJECT_DIR$/src/com/kerkeb/jrpg/classes/Warrior.java" />
-        <option value="$PROJECT_DIR$/src/com/kerkeb/jrpg/Game.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/test/com/kerkeb/jrpg/player/PlayerTest.java" />
         <option value="$PROJECT_DIR$/src/com/kerkeb/jrpg/classes/Thief.java" />
@@ -160,6 +165,8 @@
         <option value="$PROJECT_DIR$/src/com/kerkeb/jrpg/classes/Mage.java" />
         <option value="$PROJECT_DIR$/src/com/kerkeb/jrpg/player/Player.java" />
         <option value="$PROJECT_DIR$/src/com/kerkeb/jrpg/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/kerkeb/jrpg/Game.java" />
+        <option value="$PROJECT_DIR$/test/com/kerkeb/jrpg/GameTest.java" />
       </list>
     </option>
   </component>
@@ -194,6 +201,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="jrpg" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="jrpg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jrpg" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jrpg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jrpg" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="jrpg" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -206,7 +224,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545450178180" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545464127397" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -217,6 +235,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.kerkeb.jrpg" />
       <recent name="com.kerkeb.player" />
       <recent name="com.kerkeb.classes" />
     </key>
@@ -243,7 +262,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.GameTest.Given_game_When_startingNewGame_Then_finishGameWhenStopOverMethodIsCalled">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kerkeb.jrpg.Main" />
       <module name="jrpg" />
@@ -257,31 +276,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jrpg" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kerkeb.jrpg.classes.*" />
+          <option name="PATTERN" value="com.kerkeb.jrpg.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.kerkeb.jrpg.classes" />
-      <option name="MAIN_CLASS_NAME" value="com.kerkeb.jrpg.classes.MageTest" />
+      <option name="PACKAGE_NAME" value="com.kerkeb.jrpg" />
+      <option name="MAIN_CLASS_NAME" value="com.kerkeb.jrpg.GameTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MageTest.Given_2magess_When_mage1UseBasicAttackOnWarrior2_Then_dealDamageEqualToWarrior1Strength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GameTest.Given_game_When_startingNewGame_Then_displayStartMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jrpg" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kerkeb.jrpg.classes.*" />
+          <option name="PATTERN" value="com.kerkeb.jrpg.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.kerkeb.jrpg.classes" />
-      <option name="MAIN_CLASS_NAME" value="com.kerkeb.jrpg.classes.MageTest" />
-      <option name="METHOD_NAME" value="Given_2magess_When_mage1UseBasicAttackOnWarrior2_Then_dealDamageEqualToWarrior1Strength" />
+      <option name="PACKAGE_NAME" value="com.kerkeb.jrpg" />
+      <option name="MAIN_CLASS_NAME" value="com.kerkeb.jrpg.GameTest" />
+      <option name="METHOD_NAME" value="Given_game_When_startingNewGame_Then_displayStartMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameTest.Given_game_When_startingNewGame_Then_finishGameWhenStopOverMethodIsCalled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jrpg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kerkeb.jrpg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kerkeb.jrpg" />
+      <option name="MAIN_CLASS_NAME" value="com.kerkeb.jrpg.GameTest" />
+      <option name="METHOD_NAME" value="Given_game_When_startingNewGame_Then_finishGameWhenStopOverMethodIsCalled" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -303,27 +338,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThiefTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jrpg" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kerkeb.jrpg.classes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kerkeb.jrpg.classes" />
-      <option name="MAIN_CLASS_NAME" value="com.kerkeb.jrpg.classes.ThiefTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GameTest.Given_game_When_startingNewGame_Then_finishGameWhenStopOverMethodIsCalled" />
+        <item itemvalue="JUnit.GameTest.Given_game_When_startingNewGame_Then_displayStartMessage" />
+        <item itemvalue="JUnit.GameTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.MageTest.Given_mageLevel100_When_Mage1UseSpecialAttack_MageIntelEquals150" />
-        <item itemvalue="JUnit.MageTest" />
-        <item itemvalue="JUnit.ThiefTest" />
-        <item itemvalue="JUnit.MageTest.Given_2magess_When_mage1UseBasicAttackOnWarrior2_Then_dealDamageEqualToWarrior1Strength" />
       </list>
     </recent_temporary>
   </component>
@@ -341,35 +362,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ThiefTest_Given - 2018.12.21 at 18h 03m 43s.xml">
-      <configuration name="ThiefTest.Given" configurationId="JUnit" />
+    <history-entry file="GameTest_Given_game_When_startingNewGame_Then_displayStartMessage - 2018.12.22 at 07h 56m 46s.xml">
+      <configuration name="GameTest.Given_game_When_startingNewGame_Then_displayStartMessage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThiefTest_Given - 2018.12.21 at 18h 06m 39s.xml">
-      <configuration name="ThiefTest.Given" configurationId="JUnit" />
+    <history-entry file="GameTest_Given_game_When_startingNewGame_Then_displayStartMessage - 2018.12.22 at 07h 56m 53s.xml">
+      <configuration name="GameTest.Given_game_When_startingNewGame_Then_displayStartMessage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThiefTest - 2018.12.21 at 18h 11m 36s.xml">
-      <configuration name="ThiefTest" configurationId="JUnit" />
+    <history-entry file="GameTest_Given_game_When_startingNewGame_Then_displayStartMessage - 2018.12.22 at 08h 00m 26s.xml">
+      <configuration name="GameTest.Given_game_When_startingNewGame_Then_displayStartMessage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MageTest - 2018.12.21 at 18h 16m 50s.xml">
-      <configuration name="MageTest" configurationId="JUnit" />
+    <history-entry file="GameTest_Given_game_When_startingNewGame_Then_displayStartMessage - 2018.12.22 at 08h 00m 52s.xml">
+      <configuration name="GameTest.Given_game_When_startingNewGame_Then_displayStartMessage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MageTest_Given_2magess_When_mage1UseBasicAttackOnWarrior2_Then_dealDamageEqualToWarrior1Strength - 2018.12.21 at 18h 19m 22s.xml">
-      <configuration name="MageTest.Given_2magess_When_mage1UseBasicAttackOnWarrior2_Then_dealDamageEqualToWarrior1Strength" configurationId="JUnit" />
+    <history-entry file="GameTest_Given_game_When_startingNewGame_Then_displayStartMessage - 2018.12.22 at 08h 01m 49s.xml">
+      <configuration name="GameTest.Given_game_When_startingNewGame_Then_displayStartMessage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThiefTest - 2018.12.21 at 18h 19m 40s.xml">
-      <configuration name="ThiefTest" configurationId="JUnit" />
+    <history-entry file="GameTest_Given_game_When_startingNewGame_Then_finishGameWhenStopOverMethodIsCalled - 2018.12.22 at 08h 22m 19s.xml">
+      <configuration name="GameTest.Given_game_When_startingNewGame_Then_finishGameWhenStopOverMethodIsCalled" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MageTest - 2018.12.21 at 18h 20m 56s.xml">
-      <configuration name="MageTest" configurationId="JUnit" />
+    <history-entry file="GameTest_Given_game_When_startingNewGame_Then_finishGameWhenStopOverMethodIsCalled - 2018.12.22 at 08h 22m 31s.xml">
+      <configuration name="GameTest.Given_game_When_startingNewGame_Then_finishGameWhenStopOverMethodIsCalled" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MageTest_Given_mageLevel100_When_Mage1UseSpecialAttack_MageIntelEquals150 - 2018.12.21 at 18h 24m 40s.xml">
-      <configuration name="MageTest.Given_mageLevel100_When_Mage1UseSpecialAttack_MageIntelEquals150" configurationId="JUnit" />
+    <history-entry file="GameTest_Given_game_When_startingNewGame_Then_finishGameWhenStopOverMethodIsCalled - 2018.12.22 at 08h 22m 46s.xml">
+      <configuration name="GameTest.Given_game_When_startingNewGame_Then_finishGameWhenStopOverMethodIsCalled" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MageTest_Given_mageLevel100_When_Mage1UseSpecialAttack_MageIntelEquals150 - 2018.12.21 at 18h 25m 09s.xml">
-      <configuration name="MageTest.Given_mageLevel100_When_Mage1UseSpecialAttack_MageIntelEquals150" configurationId="JUnit" />
+    <history-entry file="GameTest_Given_game_When_startingNewGame_Then_finishGameWhenStopOverMethodIsCalled - 2018.12.22 at 08h 29m 25s.xml">
+      <configuration name="GameTest.Given_game_When_startingNewGame_Then_finishGameWhenStopOverMethodIsCalled" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MageTest_Given_mageLevel100_When_Mage1UseSpecialAttack_MageIntelEquals150 - 2018.12.21 at 18h 27m 21s.xml">
-      <configuration name="MageTest.Given_mageLevel100_When_Mage1UseSpecialAttack_MageIntelEquals150" configurationId="JUnit" />
+    <history-entry file="GameTest_Given_game_When_startingNewGame_Then_finishGameWhenStopOverMethodIsCalled - 2018.12.22 at 08h 30m 33s.xml">
+      <configuration name="GameTest.Given_game_When_startingNewGame_Then_finishGameWhenStopOverMethodIsCalled" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -385,7 +406,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24105866" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24105866" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Project Explorer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -396,16 +417,16 @@
       <window_info id="Favorites" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3554217" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4985694" visible="true" weight="0.3554217" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Console" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="9" sideWeight="0.5007153" side_tool="true" visible="true" weight="0.3554217" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50143063" side_tool="true" visible="true" weight="0.3554217" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49928468" weight="0.32891566" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32891566" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49785408" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -485,22 +506,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kerkeb/jrpg/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kerkeb/jrpg/player/IllegalCharacteristicException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -518,16 +523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/kerkeb/jrpg/classes/WarriorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="8" selection-start-line="8" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kerkeb/jrpg/classes/Warrior.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -535,16 +530,6 @@
           <folding>
             <element signature="e#451#452#0" expanded="true" />
             <element signature="e#505#506#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/kerkeb/jrpg/classes/ThiefTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -586,6 +571,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/kerkeb/jrpg/classes/ThiefTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/kerkeb/jrpg/classes/WarriorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/com/kerkeb/jrpg/classes/MageTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -598,8 +603,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kerkeb/jrpg/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+          <folding>
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kerkeb/jrpg/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding>
+            <element signature="e#102#103#0" expanded="true" />
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/kerkeb/jrpg/GameTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
