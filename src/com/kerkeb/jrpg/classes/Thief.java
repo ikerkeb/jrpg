@@ -8,12 +8,20 @@ public class Thief extends Player implements Action {
         super(level, strength, agility, intel);
     }
 
+    /**
+     * Arrow shoot that deal damage equal to the thief agility
+     * @param target target of the Arrow shoot
+     */
     @Override
     public void basicAttack(Player target) {
         int damage = this.agility;
         target.dealDamage(damage);
     }
 
+    /**
+     * Focus on yourself a bonus equal to half your level in agility
+     * @param target You
+     */
     @Override
     public void specialAttack(Player target) {
         target.buffAgility();

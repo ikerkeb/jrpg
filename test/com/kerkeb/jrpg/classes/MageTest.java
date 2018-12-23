@@ -16,12 +16,33 @@ class MageTest {
     }
 
     @Test
-    void Given_mageLevel100_When_Mage1UseSpecialAttack_MageIntelEquals150() {
-        Mage mage = new Mage(100,0,0,100);
+    void Given_2mageLevel100_When_mage1UseSpecialAttack_Then_mage1HealthEqual500() {
+        Mage mage1 = new Mage(100,0,0,100);
+        Mage mage2 = new Mage(100,0,0,100);
 
-        assertEquals(100, mage.getIntel());
-        mage.specialAttack(mage);
-        assertEquals(150, mage.getIntel());
+        assertEquals(500, mage1.getHealth());
+
+        mage2.basicAttack( mage1 );
+        assertEquals(400, mage1.getHealth());
+
+        mage1.specialAttack(mage1);
+        assertEquals(500, mage1.getHealth());
+    }
+
+    @Test
+    void Given_2mageLevel100_When_mage1UseSpecialAttack_Then_mage1HealthEqual400() {
+        Mage mage1 = new Mage(100,0,0,100);
+        Mage mage2 = new Mage(100,0,0,100);
+
+        assertEquals(500, mage1.getHealth());
+
+        mage2.basicAttack( mage1 );
+        mage2.basicAttack( mage1 );
+        mage2.basicAttack( mage1 );
+        assertEquals(200, mage1.getHealth());
+
+        mage1.specialAttack(mage1);
+        assertEquals(400, mage1.getHealth());
     }
 
 }

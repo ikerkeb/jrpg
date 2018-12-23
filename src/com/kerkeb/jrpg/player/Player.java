@@ -36,10 +36,6 @@ public class Player {
         this.agility = agility;
     }
 
-    public void setIntel(int intel) {
-        this.intel = intel;
-    }
-
     public void setLevel(int level) {
         try {
             if (level >= 1 && level <= 100) {
@@ -110,9 +106,15 @@ public class Player {
         this.setAgility(buff);
     }
 
-    public void buffIntel() {
-        int buff = this.level / 2;
-        buff += this.intel;
-        this.setIntel(buff);
+    public void heal() {
+        int buff = this.intel * 2;
+        int currentHealth = this.getHealth();
+        int totalHealth = currentHealth += buff;
+
+        this.setHealth( totalHealth );
+
+        if (this.getHealth() >= this.level * 5) {
+            this.setHealth( this.level * 5 );
+        }
     }
 }
