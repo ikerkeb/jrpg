@@ -9,6 +9,21 @@ import static org.junit.jupiter.api.Assertions.*;
 class PlayerTest {
 
     @Test
+    void Given_2playersInstance_When_onePlayerDies_Then_thisPlayerIsDeadSetToTrue() {
+        Player player1 = new Warrior(100,100,0,0);
+        Player player2 = new Warrior(100,100,0,0);
+
+        ((Warrior) player1).basicAttack(player2);
+        ((Warrior) player1).basicAttack(player2);
+        ((Warrior) player1).basicAttack(player2);
+        ((Warrior) player1).basicAttack(player2);
+        ((Warrior) player1).basicAttack(player2);
+        assertEquals(0, player2.getHealth());
+        assertEquals(true, player2.isDead());
+    }
+
+
+    @Test
     void Given_2playersInstance_When_player2HealthGoesBelow0_Then_player2Dies() {
         Player player1 = new Warrior(100,100,0,0);
         Player player2 = new Warrior(100,100,0,0);

@@ -90,6 +90,9 @@ public class Player {
         health = getHealth();
 
         setHealth(health - damage);
+        if (health <= 0) {
+            this.isDead();
+        }
     }
 
     public boolean isDead() {
@@ -99,6 +102,7 @@ public class Player {
             return false;
         }
     }
+
 
     public void buffAgility() {
         int buff = this.level / 2;
