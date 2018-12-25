@@ -19,7 +19,7 @@ class PlayerTest {
         player1.basicAttack(player2);
         player1.basicAttack(player2);
         assertEquals(0, player2.getHealth());
-        assertEquals(true, player2.isDead());
+        assertEquals(true, player2.isDead);
     }
 
 
@@ -38,7 +38,7 @@ class PlayerTest {
         assertEquals( 100, player2.getHealth());
         player1.specialAttack(player2);
         assertEquals( -100, player2.getHealth());
-        assertEquals(true, player2.isDead());
+        assertEquals(true, player2.isDead);
     }
 
 
@@ -57,7 +57,7 @@ class PlayerTest {
         assertEquals( 100, player2.getHealth());
         player1.basicAttack(player2);
         assertEquals( 0, player2.getHealth());
-        assertEquals(true, player2.isDead());
+        assertEquals(true, player2.isDead);
     }
 
     @Test

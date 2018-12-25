@@ -2,7 +2,7 @@ package com.kerkeb.jrpg.classes;
 
 import com.kerkeb.jrpg.player.Player;
 
-public class Mage extends Player implements Action {
+public class Mage extends Player {
 
     public Mage(int level, int strength, int agility, int intel) {
         super(level, strength, agility, intel);
@@ -16,6 +16,7 @@ public class Mage extends Player implements Action {
     public void basicAttack(Player target) {
         int damage = this.getIntel();
         target.dealDamage(damage);
+        System.out.println("- " + damage + "HP!");
     }
 
     /**
@@ -25,6 +26,7 @@ public class Mage extends Player implements Action {
      */
     @Override
     public void specialAttack(Player target) {
+        target = this;
         target.heal();
     }
 }

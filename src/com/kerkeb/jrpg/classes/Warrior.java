@@ -2,9 +2,7 @@ package com.kerkeb.jrpg.classes;
 
 import com.kerkeb.jrpg.player.Player;
 
-public class Warrior extends Player implements Action {
-
-    private int health;
+public class Warrior extends Player {
 
     /**
      * Warrior constructor, sets the Warrior's health to his level * 5
@@ -25,6 +23,7 @@ public class Warrior extends Player implements Action {
     public void basicAttack(Player target) {
         int damage = this.strength;
         target.dealDamage(damage);
+        System.out.println("- " + damage + "HP!");
     }
 
     /**
@@ -39,7 +38,9 @@ public class Warrior extends Player implements Action {
         int selfDamage = this.strength / 2;
 
         target.dealDamage(damage);
-
+        System.out.println("- " + damage + "HP!");
         this.dealDamage(selfDamage);
+        System.out.println("- " + selfDamage + "HP as self damage!");
+
     }
 }
