@@ -13,11 +13,11 @@ class PlayerTest {
         Player player1 = new Warrior(100,100,0,0);
         Player player2 = new Warrior(100,100,0,0);
 
-        ((Warrior) player1).basicAttack(player2);
-        ((Warrior) player1).basicAttack(player2);
-        ((Warrior) player1).basicAttack(player2);
-        ((Warrior) player1).basicAttack(player2);
-        ((Warrior) player1).basicAttack(player2);
+        player1.basicAttack(player2);
+        player1.basicAttack(player2);
+        player1.basicAttack(player2);
+        player1.basicAttack(player2);
+        player1.basicAttack(player2);
         assertEquals(0, player2.getHealth());
         assertEquals(true, player2.isDead());
     }
@@ -28,15 +28,15 @@ class PlayerTest {
         Player player1 = new Warrior(100,100,0,0);
         Player player2 = new Warrior(100,100,0,0);
 
-        ((Warrior) player1).basicAttack(player2);
+        player1.basicAttack(player2);
         assertEquals( 400, player2.getHealth());
-        ((Warrior) player1).basicAttack(player2);
+        player1.basicAttack(player2);
         assertEquals( 300, player2.getHealth());
-        ((Warrior) player1).basicAttack(player2);
+        player1.basicAttack(player2);
         assertEquals( 200, player2.getHealth());
-        ((Warrior) player1).basicAttack(player2);
+        player1.basicAttack(player2);
         assertEquals( 100, player2.getHealth());
-        ((Warrior) player1).specialAttack(player2);
+        player1.specialAttack(player2);
         assertEquals( -100, player2.getHealth());
         assertEquals(true, player2.isDead());
     }
@@ -47,15 +47,15 @@ class PlayerTest {
         Player player1 = new Warrior(100,100,0,0);
         Player player2 = new Warrior(100,100,0,0);
 
-        ((Warrior) player1).basicAttack(player2);
+        player1.basicAttack(player2);
         assertEquals( 400, player2.getHealth());
-        ((Warrior) player1).basicAttack(player2);
+        player1.basicAttack(player2);
         assertEquals( 300, player2.getHealth());
-        ((Warrior) player1).basicAttack(player2);
+        player1.basicAttack(player2);
         assertEquals( 200, player2.getHealth());
-        ((Warrior) player1).basicAttack(player2);
+        player1.basicAttack(player2);
         assertEquals( 100, player2.getHealth());
-        ((Warrior) player1).basicAttack(player2);
+        player1.basicAttack(player2);
         assertEquals( 0, player2.getHealth());
         assertEquals(true, player2.isDead());
     }
@@ -65,7 +65,7 @@ class PlayerTest {
         Player player1 = new Warrior(100,100,0,0);
         Player player2 = new Warrior(100,100,0,0);
 
-        ((Warrior) player1).specialAttack(player2);
+        player1.specialAttack(player2);
         assertEquals( 300, player2.getHealth());
         assertEquals(450, player1.getHealth());
     }
@@ -75,7 +75,7 @@ class PlayerTest {
         Player player1 = new Warrior(100,100,0,0);
         Player player2 = new Warrior(100,100,0,0);
 
-        ((Warrior) player1).basicAttack(player2);
+        player1.basicAttack(player2);
         assertEquals( 400, player2.getHealth());
     }
 

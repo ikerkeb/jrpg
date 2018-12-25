@@ -1,12 +1,18 @@
 package com.kerkeb.jrpg.player;
 
-public class Player {
+public abstract class Player{
 
     protected int level;
     protected int strength;
     protected int agility;
     protected int intel;
     protected int health;
+
+    public boolean isDead = false;
+
+    public abstract void basicAttack(Player target);
+
+    public abstract void specialAttack(Player target);
 
     public int getLevel() {
         return level;
@@ -71,43 +77,24 @@ public class Player {
         this.health = level * 5;
     }
 
-    @Override
-    public String toString() {
-        return "Player{" +
-                "level=" + level +
-                ", strength=" + strength +
-                ", agility=" + agility +
-                ", intel=" + intel +
-                ", health=" + health +
-                '}';
-    }
-
     /**
      * Deals damage to the target
      * @param damage the number of damage to deal
      */
     public void dealDamage(int damage) {
-        health = getHealth();
+        health = this.getHealth();
 
         setHealth(health - damage);
         if (health <= 0) {
-            this.isDead();
+            this.isDead = true;
         }
     }
-
-    public boolean isDead() {
-        if (this.getHealth() <= 0) {
-            return true;
-        } else {
-            return false;
-        }
-    }
-
 
     public void buffAgility() {
         int buff = this.level / 2;
         buff += this.agility;
         this.setAgility(buff);
+        System.out.println("+ " + buff + " Agility!");
     }
 
     public void heal() {
@@ -115,10 +102,12 @@ public class Player {
         int currentHealth = this.getHealth();
         int totalHealth = currentHealth += buff;
 
-        this.setHealth( totalHealth );
 
         if (this.getHealth() >= this.level * 5) {
             this.setHealth( this.level * 5 );
+        } else {
+            this.setHealth( totalHealth );
         }
+        System.out.println("+ " + buff + "HP! - Total:" + this.getHealth());
     }
 }
