@@ -102,12 +102,11 @@ public abstract class Player{
         int currentHealth = this.getHealth();
         int totalHealth = currentHealth += buff;
 
+        this.setHealth( totalHealth );
 
         if (this.getHealth() >= this.level * 5) {
             this.setHealth( this.level * 5 );
-        } else {
-            this.setHealth( totalHealth );
         }
-        System.out.println("+ " + buff + "HP! - Total:" + this.getHealth());
+        System.out.println("+ " + buff + " HP! - Total:" + this.getHealth());
     }
 }
