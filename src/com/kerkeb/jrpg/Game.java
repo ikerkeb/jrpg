@@ -6,6 +6,7 @@ import com.kerkeb.jrpg.classes.Warrior;
 import com.kerkeb.jrpg.player.*;
 
 import java.util.HashMap;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Game {
@@ -71,8 +72,13 @@ public class Game {
                     default:
                         throw new IllegalClassException();
                 }
-            } catch (IllegalClassException e) {
-                System.err.println(e.getMessage());
+            } catch (IllegalClassException | InputMismatchException e) {
+                if (e.getMessage() == null) {
+                    System.err.println("Please enter a valid input");
+                    sc.next();
+                } else {
+                    System.err.println( e.getMessage() );
+                }
             }
         }
 
@@ -120,12 +126,16 @@ public class Game {
                     } else {
                         throw new IllegalLevelException();
                     }
-                } catch (IllegalLevelException e) {
-                    System.err.println(e.getMessage());
+                } catch (IllegalLevelException | InputMismatchException e) {
+                    if (e.getMessage() == null) {
+                        System.err.println( "Please enter a valid input" );
+                        sc.next();
+                    } else {
+                        System.err.println( e.getMessage() );
+                    }
                 }
             }
         } else {
-
             while (!validAnswer) {
                 try {
                     playerChoice = sc.nextInt();
@@ -135,8 +145,13 @@ public class Game {
                     } else {
                         throw new IllegalCharacteristicException();
                     }
-                } catch (IllegalCharacteristicException e) {
-                    System.err.println( e.getMessage() );
+                } catch (IllegalCharacteristicException | InputMismatchException e) {
+                    if (e.getMessage() == null) {
+                        System.err.println("Please enter a valid input");
+                        sc.next();
+                    } else {
+                        System.err.println( e.getMessage() );
+                    }
                 }
             }
         }
@@ -204,8 +219,13 @@ public class Game {
                     default:
                         throw (new IllegalActionException());
                 }
-            } catch (IllegalActionException e) {
-                System.err.println( e.getMessage() );
+            } catch (IllegalActionException | InputMismatchException e) {
+                if (e.getMessage() == null) {
+                    System.err.println("Please enter a valid input");
+                    sc.next();
+                } else {
+                    System.err.println( e.getMessage() );
+                }
             }
         }
         if (player.isDead || opponent.isDead) {
@@ -231,34 +251,35 @@ public class Game {
                         actionsHash.put( "basicAttack", "You pull out a Peanut butter covered knife and stab your allergic opponent." );
                         actionsHash.put( "specialAttack", "You step on a Lego and lose some health which puts you in Beast mode. You proceed to slap the opponent as hard as you can with a full Peanut butter jar." );
                         validClass = true;
-                        return actionsHash;
+                        break;
                     case 2:
                         actionsHash.put( "selectAction", "Thief, select an action : 1 - Arrow shot | 2 - Focus" );
                         actionsHash.put( "basicAttack", "You shoot your arrow in the hopes and dreams of your opponent, causing emotional damage." );
                         actionsHash.put( "specialAttack", "You realize that you're doing pretty good at life and that you are a nice and interesting person. Which makes you more confident but also deadlier" );
                         validClass = true;
-                        return actionsHash;
+                        break;
                     case 3:
                         actionsHash.put( "selectAction", "Mage, select an action : 1 - Fire ball | 2 - Heal" );
                         actionsHash.put( "basicAttack", "You  pull out a spray deodorant and a lighter, dealing fire damage to the opponent." );
                         actionsHash.put( "specialAttack", "You pull out some questionable powder and snort some, which appears to give you an instant boost in energy." );
                         validClass = true;
-                        return actionsHash;
+                        break;
                     default:
                         throw (new IllegalClassException());
                 }
             } catch (IllegalClassException e) {
-                System.err.println( e.getMessage() );
+                    System.err.println( e.getMessage() );
             }
         }
-        return null;
+        return actionsHash;
     }
 
     /**
      * Sets gameOver to true, therefore stopping the game.
      */
     public void stop() {
-        System.out.println("Game Over! Thanks for playing");
+        System.out.println("----- GAME OVER -----");
+        System.out.println("Thanks for playing!");
         System.out.println("Feel free to take a look at the code behind this masterpiece of a game");
         System.out.println("Advices and PR are very welcome.");
         this.gameOver = true;
